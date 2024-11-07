@@ -1,6 +1,6 @@
 Name: octave_tar
-Version: 0.1.0
-Date: 2024-10-21
+Version: 1.0.0
+Date: 2024-11-07
 Author: various authors
 Maintainer: Yu Hongbo <yuhongbo@member.fsf.org>, CNOCTAVE <cnoctave@qq.com>
 Title: tar wrapper
