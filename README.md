@@ -10,7 +10,7 @@
  2. Translate en-US.html into English.
  3. Add dropdown like the picture below to every *.html. 
  For example, add dropdown "en-US English".  
- ![the dropdown looking](./docs/pic/translate_dropdown.png)  
+ ![the dropdown looking](./docs/translate_dropdown.png)  
  The code for adding dropdown is like the picture below.  
- ![the dropdown code](./docs/pic/translate_dropdown_code.png) 
+ ![the dropdown code](./docs/translate_dropdown_code.png) 
  4. PR to octave_tar.

@@ -1,0 +1,24 @@
+# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
+# For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
+
+name: Build and Publish
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  linux-build:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: 'octave_tar'
+      # uncomment this on demand
+      # - run: sudo chmod a+x octave_tar/src/configure
+      # uncomment this on demand
+      - run: sudo chmod -R a+x octave_tar/inst
+      - run: tar --warning=no-file-changed --exclude='octave_tar/.git' --exclude='octave_tar/.github' -czvf octave_tar.tar.gz octave_tar
+      - run: gh release upload 1.0.1 octave_tar.tar.gz --repo $GITHUB_REPOSITORY

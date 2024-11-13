@@ -1,0 +1,10 @@
+引用octave_tar
+如果你在学术研究中涉及octave_tar，那么可以按需引用以下内容。
+octave_tar源码(BibTeX)
+@misc{CNOCTAVE2024, author = {Yu Hongbo, }, title = {octave_tar}, year = {2024}, howpublished = {\url{https://github.com/CNOCTAVE/octave_tar}}, }
+
+octave_tar文档(BibTeX)
+@techreport{CNOCTAVE2024, author = {Yu Hongbo, }, title = {octave_tar Document}, institution = {BA DU XIN SHANG}, year = {2024}, number = {1}, month = {11}, url = {https://cnoctave.github.io/octave_tar/index.html}, urldate = {2024-11-01}, }
+
+Utilizing octave_tar and octave_zstd for Efficient Management of Academic Datasets: A New Frontier in Data Science(BibTeX)
+@article{https://engrxiv.org/preprint/view/4084, doi = {10.31224/4084}, url = {https://engrxiv.org/preprint/view/4084}, author = {Yu Hongbo, }, keywords = {CNOCTAVE, GNU, cross domain, open-source, octave_tar}, title = {Utilizing octave_tar and octave_zstd for Efficient Management of Academic Datasets: A New Frontier in Data Science}, publisher = {engrxiv}, year = {2024}, copyright = {Creative Commons Attribution 4.0 International} }

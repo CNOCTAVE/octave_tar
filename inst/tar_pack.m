@@ -29,5 +29,5 @@ function status = tar_pack(varargin)
     if nargin < 2
         print_usage();
     endif
-    [ret, status] = python("tar_pack.py", varargin{:})
+    [ret, status] = python("tar_pack.py", varargin{:});
 end
