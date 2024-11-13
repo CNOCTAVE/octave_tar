@@ -25,7 +25,7 @@ without any warranty.
     <link href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/animate.css@^4.0.0/animate.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/quasar@2.17.0/dist/quasar.prod.css" rel="stylesheet" type="text/css">
-    <link href="assets/main.css" rel="stylesheet" type="text/css">
+    <link href="main.css" rel="stylesheet" type="text/css">
     <title>octave_tar文档</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -143,7 +143,7 @@ without any warranty.
 
             <q-page-container>
                 <div style="position: relative;">
-                    <q-img src="pic/banner0.png" spinner-color="white" style="width: 100%; height: 300px;"></q-img>
+                    <q-img src="banner0.png" spinner-color="white" style="width: 100%; height: 300px;"></q-img>
                     <div class="q-mx-md rainbow-text"
                         style="line-height: 300px; font-size: 100px; position: absolute; left: 0%; top: 0%;">octave_tar文档
                     </div>
@@ -158,7 +158,7 @@ without any warranty.
                         <div id="online_install" class="title1 q-ma-md text-primary">在线安装</div>
                         <p class="q-ma-md">octave_tar可以在线安装。</p>
                         <div class="text-h5 q-ma-md text-red-10">在线安装octave_tar，代码如下：</div>
-                        <p class="q-ma-md">>> pkg install 'https://github.com/CNOCTAVE/octave_tar/releases/download/1.0.0/octave_tar.tar.gz'</p>
+                        <p class="q-ma-md">>> pkg install 'https://github.com/CNOCTAVE/octave_tar/releases/download/1.0.1/octave_tar.tar.gz'</p>
                         <q-separator></q-separator>
                         <div id="source_code_install" class="title1 q-ma-md text-primary">源码安装</div>
                         <p class="q-ma-md">octave_tar可以直接使用tar包安装。</p>
@@ -193,6 +193,8 @@ without any warranty.
                         <p class="q-ma-md">>> tar_pack("file", "dir", "new.tar")</p>
                         <div class="text-h5 q-ma-md text-red-10">解包一个名为file.tar的文件至new_file文件夹，代码如下：</div>
                         <p class="q-ma-md">>> tar_unpack("file.tar", "new_file")</p>
+                        <div class="text-h5 q-ma-md text-red-10">解包一个名为file.tar的文件至当前文件夹，代码如下：</div>
+                        <p class="q-ma-md">>> tar_unpack("file.tar", ".")</p>
                         <q-separator></q-separator>
                         <div id="references" class="title1 q-ma-md text-primary">引用octave_tar</div>
                         <div class="text-h5 q-ma-md text-red-10">如果你在学术研究中涉及octave_tar，那么可以按需引用以下内容。</div>

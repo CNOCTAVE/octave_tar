@@ -29,5 +29,5 @@ function status = tar_unpack(tar_filename, destination_dir)
     if nargin < 2
         print_usage();
     endif
-    [ret, status] = python("tar_unpack.py", tar_filename, destination_dir)
+    [ret, status] = python("tar_unpack.py", tar_filename, destination_dir);
 end
